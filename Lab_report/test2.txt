@@ -1,0 +1,7 @@
+open visual studio:
+create project - search for console app with c# logo.
+sum on n 
+leap year
+arrvy create and add
+factorial
+prime number
