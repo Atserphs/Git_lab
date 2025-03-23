@@ -1,4 +1,4 @@
 # folders to ignore
-.vs/
-.gitignore
-this/
+.vs/  			#don't include .vs folder
+.gitignore		#don't include .gitignore file
+this/			#don't include this folder
