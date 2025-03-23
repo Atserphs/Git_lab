@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("console1")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea015bfe1b541d9fe85978e97cc79056fdf0ecd1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+412136e71dfbca1626a16c9841082177b9538d21")]
 [assembly: System.Reflection.AssemblyProductAttribute("console1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("console1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
