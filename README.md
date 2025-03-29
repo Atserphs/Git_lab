@@ -9,7 +9,7 @@ This repository is for storing and documenting the lab report of VB.NET. It incl
 
 
 ## Lab1 - Git Installation, Setup, and Basic Commands
-   ###GIT 
+   ### GIT 
    Git was created by Linus Torvalds in 2005 (Creator of Linux OS). It is a distributed version control 
    system used for keeping track of changes, managing multiple versions of code and collaborating 
    seamlessly across teams. It allows developers to work on their own local copies of a project, while 
@@ -81,3 +81,340 @@ This repository is for storing and documenting the lab report of VB.NET. It incl
    from repository.
 
 ## Lab2 - Building Console Application
+### Console Application:
+A console application or command-line program is a computer program designed to be used via a text-only user interface, such as a text terminal, the command-line interface of some operating systems, or a text-based interface included with most graphical user interface operating systems, such as Windows.
+
+### Entry Point Method
+Entry point method in building a console app is a kind of method where the start and end of the whole app is controlled by the main function.<br>
+
+#### Entrypoint function for following code:
+Main function
+code:
+```
+using console1;
+
+internal class Program
+{
+    private static void Main()
+    {
+        Console.WriteLine("Hello\nAtserphs"); 
+
+        //output of number swap function.
+        number_swap number_swap_obj = new number_swap();
+        number_swap_obj.number_swap_func();
+        //Console.WriteLine(num_obj.number_swap_func());
+
+        //output of check greatest number function.
+        int a = 10;
+        int b = 20;
+        int c = 30;
+        check_greatest check_obj = new check_greatest();
+        Console.WriteLine("\nGreatest number among 10, 20, and 30 is " + check_obj.check_greatest_number(a,b,c));
+
+        //output of check even or odd function.
+        Console.WriteLine("\nEnter any number to check if it is even or odd:");
+        string odd_even_num = Console.ReadLine();
+        odd_even odd_even_obj = new odd_even();
+        Console.WriteLine(odd_even_obj.check_odd_even(int.Parse(odd_even_num)));
+
+        //output of sum of n natural numbers function
+        Console.WriteLine("\nEnter any number to sum n natural number:");
+        string natural_num = Console.ReadLine();
+        sum_n_number sum_n_number_obj = new sum_n_number();
+        Console.WriteLine("Sum of natural number to " + odd_even_num + " is " + sum_n_number_obj.sum_n_number_func(int.Parse(natural_num)));
+        Console.WriteLine("Sum of natural number using n(n+1)/2 to" + odd_even_num + " is " sum_n_number_obj.sum_n_number_func1(int.Parse(natural_num)) );
+
+        //output of check leap year function
+        Console.WriteLine("\nEnter any year to check if it is leap year:");
+        string year = Console.ReadLine();
+        check_leap_year check_leap_year_obj = new check_leap_year();
+        Console.WriteLine(check_leap_year_obj.check_leap_year_func1(int.Parse(year)));
+        Console.WriteLine(check_leap_year_obj.check_leap_year_func2(int.Parse(year)));
+        Console.WriteLine(check_leap_year_obj.check_leap_year_func3(int.Parse(year)));
+
+        //output of array sum
+        int[] array_for_sum = [1, 2, 3, 4, 5, 6];
+        array_index_sum array_index_sum_obj = new array_index_sum();
+        Console.WriteLine("\nSum of array is " + array_index_sum_obj.array_index_sum_func(array_for_sum));
+
+        //output of factorial of number
+        Console.WriteLine("\nEnter any number to calculate its factorial:");
+        string factorial_number = Console.ReadLine();
+        factorial_of_number factorial_of_number_obj = new factorial_of_number();
+        Console.WriteLine(factorial_of_number_obj.factorial_of_number_func(int.Parse(factorial_number)));
+
+        //output of check prime number func
+        Console.WriteLine("\nEnter any number to check if it is prime number:");
+        string prime_number = Console.ReadLine();
+        prime_number_check prime_number_check_obj = new prime_number_check();
+        Console.WriteLine(prime_number_check_obj.prime_number_check_func(int.Parse(prime_number)));
+        Console.WriteLine(prime_number_check_obj.prime_number_check_func1(int.Parse(prime_number)));
+        Console.WriteLine(prime_number_check_obj.prime_number_check_func2(int.Parse(prime_number)));
+
+
+        //to hold app
+        Console.ReadKey();
+
+    }
+}
+```
+
+#### Questions:
+
+1. Write a C# Sharp program to print Hello and your name in a separate line. <br>
+   Ans: Using console write line command.<br>
+   Code:
+    ```
+    Console.WriteLine("Hello, World!");
+    ```
+
+2. Write a C# Sharp program to swap two numbers.<br>
+   Ans: using three variables<br>
+   code:
+   
+```
+    class number_swap
+    {
+        public void number_swap_func()
+        {
+            int a = 18;
+            int b = 6;
+            int c;
+
+            Console.WriteLine("\nValues before swap:\n a = " + a + " b = " + b);
+            c = b;
+            b = a;
+            a = c;
+            Console.WriteLine("Values after swap:\n a = " + a + " b = " + b);
+        }
+    }
+```
+
+3. Write a C# Sharp program to find the largest of three numbers.<br>
+   Ans: using if-else if <br>
+   code:
+   ```
+   class check_greatest
+   {
+       public int check_greatest_number(int a, int b, int c)
+       {
+           if (a > b & a > c)
+           {
+               return a;
+           }
+           else if (b > a & b > c)
+           {
+               return b;
+           }
+           else
+           {
+               return c;
+           }
+       }
+   }
+   ```
+
+4. Write a C# Sharp program to check whether a given number is even or odd. <br>
+   Ans: using mod by 2 <br>
+   code:
+   ```
+    class odd_even
+    {
+        public string check_odd_even(int a)
+        {
+            if (a % 2 == 0)
+            {
+                return ("even");
+            }
+            else
+            {
+                return ("odd");
+            }
+        }
+    }
+   ```
+
+5. Write a C# Sharp program that displays the sum of n natural numbers.<br>
+   Ans: using <br>
+      I. Iteration method<br>
+      II. Formula
+         $$\frac{n(n+1)}{2}$$ <br>
+   code:
+   ```
+   class sum_n_number
+    {
+        public int sum_n_number_func(int n)
+        {
+            int sum = 0;
+            for (int i = 1; i<=n; i++)
+            {
+                sum = sum + i;    
+            }
+            return sum;
+        }
+
+        public int sum_n_number_func1(int n)
+        {
+            int sum1 = n * (n + 1) / 2;
+            return sum1;
+        }
+    }
+   ```
+
+6. Check whether a given year is a leap year or not.<br>
+   Ans: using three methods as shown below, <br>
+   code:
+      ```
+          class check_leap_year
+       {
+           //Method 1
+           public string check_leap_year_func1(int year)
+           {
+               if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))
+               {
+                   return "Leap_year (from func 1)";
+               }
+               return "Not a Leap year (from func 1)";
+           }
+           
+   
+            //Method 2
+           public string check_leap_year_func2(int year)
+           {
+               if(year % 4 == 0)
+               {
+                   if(year % 100 == 0) 
+                   { 
+                       if(year % 400 == 0)
+                       {
+                           return "Leap year (from func 2)";
+                       }
+                       return "Not a leap year (from func 2)";
+                   }
+                   return "Leap year (from func 2)";
+               }
+               return "Not a leap year (from func 2)";
+           }
+   
+           //Method 3
+           public string check_leap_year_func3(int year)
+           {
+               return ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) ? "Leap year (from func 3)" : "Not a leap year (from func 3)";
+           }
+   
+       }
+      ```
+
+7. Create an integer array and print sum of array element. <br>
+   Ans: using for each loop approach <br>
+   Code:
+   ```
+       class array_index_sum
+    {
+        public int array_index_sum_func(int[] array)
+        {
+            int sum = 0;
+            foreach (int arr in array)
+            {
+                sum += arr;
+            }
+            return sum;
+
+        }
+    }
+   ```
+      
+8. Write a C# Sharp program to calculate the factorial of a given number. <br>
+   Ans: using normal loop approach,
+   Code:
+   ```
+       class factorial_of_number
+    {
+        public int factorial_of_number_func(int factorial_number)
+        {
+            int factorial = 1;
+            do
+            {
+                factorial = factorial * factorial_number;
+                factorial_number--;
+            } while (factorial_number >= 1);
+            return factorial;
+        }
+    }
+   ```
+
+9. Write a program to check if input number is a prime number.<br>
+   Ans: using three methods, <br>
+   I. Simple Bruteforce Method (loop up to prime number) <br>
+   II. Squareroot Half Iteration Method (loop up to square root number of prime number) <br>
+   III. Trial Divison Method <br>
+   
+   Code:
+   ```
+       class prime_number_check
+    {
+        //simple bruteforce method of checking prime number
+        public string prime_number_check_func(int prime_number)
+        {
+            if (prime_number <= 1)
+            {
+                return "Not prime number (bruteforce method)";
+            }
+    
+            for (int i = 2; i < prime_number; i++)
+            {
+                if (prime_number % i == 0)
+                {
+                    return "Not prime number (bruteforce method)";
+                }
+            }
+            return "Prime number (bruteforce method)";
+          
+        }
+
+        //sqrt half iteration method optimized one
+        public string prime_number_check_func1(int prime_number)
+        {
+            if(prime_number == 1)
+            {
+                return "Not prime number (sqrt method)";
+            }
+
+            for (int i = 2; i <= Math.Sqrt(prime_number); i++)
+            {
+                if(prime_number % i == 0)
+                {
+                    return "Not prime number (sqrt method)";
+                }
+            }
+
+            return "Prime number (sqrt method)";
+        }
+
+        //trial division method
+        public string prime_number_check_func2(int prime_number)
+        {
+            if(prime_number == 1) { return "Not prime number (trial division method)"; }
+
+            if(prime_number == 2 || prime_number == 3) { return "Not prime number (trial division method)"; }
+
+            if(prime_number % 2 == 0 || prime_number % 3 == 0) { return "Not prime number (trial division method)"; }
+
+            for(int i=5; i <= Math.Sqrt(prime_number); i += 6)
+            {
+                if(prime_number % i == 0) { return "Not prime number (trial division method)"; }
+                
+            }
+
+            return "Prime number (trial division method)";
+        }
+    }
+   ```
+    
+
+   
+
+
+
+
+
