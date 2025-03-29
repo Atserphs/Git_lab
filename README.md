@@ -27,18 +27,18 @@ This repository is for storing and documenting the lab report of VB.NET. It incl
    - Log of Commits: With this feature, GIT maintains an account of all commit actions 
    (changes), which makes understanding how a project has evolved over time much easier. 
    Basic command of GIT: 
-   1. Setup and Configuration
+   1. #### Setup and Configuration
       1. git config –global user.name “user_name” : Sets your name in git. 
       2. git config –global user.email “user@gmail.com” : Sets your email in git. 
-   2. Repository Management 
+   2. #### Repository Management 
       1. git init : Initializes a new git repository. 
       2. git log : Shows commit details eg.(commit_id, author, date, branch) 
       3. git clone <repository_url> : Clones an existing repository. 
-   3. Working with Changes 
+   3. #### Working with Changes 
       1. git add <file> : Stages a specific file for commit. but if use dot. 
       2. git add . : Stages all changes in stage area. 
       3. git commit -m “commit _message” : Commits staged changes with a message. 
-   4. Branching and Merging 
+   4. #### Branching and Merging 
       1. git branch : List all branches. 
       2. git branch <branch_name> : Create a new branch. 
       3. git checkout <branch_name>: Switches to a specified branch also adding.all 
@@ -46,11 +46,11 @@ This repository is for storing and documenting the lab report of VB.NET. It incl
       4. git switch <branch_name> : Just switches to specified branch. 
       5. dir : Show all directories available in working branch. 
       6. git merge <branch> : Merges a branch into the current branch. 
-   5. Viewing Changes and Logs 
+   5. #### Viewing Changes and Logs 
       1. git status : Shows the status of changes. 
       2. git log : Displays commit history. 
       3. git diff : Show difference between files. 
-   6. Remote Repository 
+   6. #### Remote Repository 
       1. git remote add origin “repository_url” : Adds a remote repository. 
       2. git push origin -u <branch_name> : First time push branch. 
       3. git push origin <branch_name> : Pushing changes to remote repository. 
@@ -161,14 +161,14 @@ internal class Program
 
 #### Questions:
 
-1. Write a C# Sharp program to print Hello and your name in a separate line. <br>
+1. ##### Write a C# Sharp program to print Hello and your name in a separate line. <br>
    Ans: Using console write line command.<br>
    Code:
     ```
     Console.WriteLine("Hello, World!");
     ```
 
-2. Write a C# Sharp program to swap two numbers.<br>
+2. ##### Write a C# Sharp program to swap two numbers.<br>
    Ans: using three variables<br>
    code:
    
@@ -190,7 +190,7 @@ internal class Program
     }
 ```
 
-3. Write a C# Sharp program to find the largest of three numbers.<br>
+3. ##### Write a C# Sharp program to find the largest of three numbers.<br>
    Ans: using if-else if <br>
    code:
    ```
@@ -214,7 +214,7 @@ internal class Program
    }
    ```
 
-4. Write a C# Sharp program to check whether a given number is even or odd. <br>
+4. ##### Write a C# Sharp program to check whether a given number is even or odd. <br>
    Ans: using mod by 2 <br>
    code:
    ```
@@ -234,11 +234,10 @@ internal class Program
     }
    ```
 
-5. Write a C# Sharp program that displays the sum of n natural numbers.<br>
+5. ##### Write a C# Sharp program that displays the sum of n natural numbers.<br>
    Ans: using <br>
-      I. Iteration method<br>
-      II. Formula
-         $$\frac{n(n+1)}{2}$$ <br>
+      I. <b>Iteration method</b><br><br>
+      II. <b>Formula</b> $$\frac{n(n+1)}{2}$$ <br><br>
    code:
    ```
    class sum_n_number
@@ -261,7 +260,7 @@ internal class Program
     }
    ```
 
-6. Check whether a given year is a leap year or not.<br>
+6. ##### Check whether a given year is a leap year or not.<br>
    Ans: using three methods as shown below, <br>
    code:
       ```
@@ -305,7 +304,7 @@ internal class Program
        }
       ```
 
-7. Create an integer array and print sum of array element. <br>
+7. ##### Create an integer array and print sum of array element. <br>
    Ans: using for each loop approach <br>
    Code:
    ```
@@ -324,7 +323,7 @@ internal class Program
     }
    ```
       
-8. Write a C# Sharp program to calculate the factorial of a given number. <br>
+8. ##### Write a C# Sharp program to calculate the factorial of a given number. <br>
    Ans: using normal loop approach,
    Code:
    ```
@@ -343,11 +342,14 @@ internal class Program
     }
    ```
 
-9. Write a program to check if input number is a prime number.<br>
+9. ##### Write a program to check if input number is a prime number.<br>
    Ans: using three methods, <br>
-   I. Simple Bruteforce Method (loop up to prime number) <br>
-   II. Squareroot Half Iteration Method (loop up to square root number of prime number) <br>
-   III. Trial Divison Method <br>
+   I. <b>Simple Bruteforce Method</b> (loop up to prime number) <br><br>
+   
+   II. <b>Squareroot Half Iteration Method</b> (loop up to square root number of prime number) <br><br>
+   
+   III. <b>Trial Divison Method</b> <br><br>
+   
    Content link 👍<URL>https://www.geeksforgeeks.org/check-for-prime-number/ </URL>
    <a href="https://www.geeksforgeeks.org/check-for-prime-number/">
    <img src="VS_studio_lab\Lab2\optimized trail divisionmethod.png">
@@ -416,8 +418,8 @@ internal class Program
    ```
 
 ### Output
-Output of above functions is as below,
-<img src="VS_studio_lab\Lab2\output.png"
+Output of above functions is as below, <br>
+<img src="VS_studio_lab\Lab2\output.png">
 
    
 
