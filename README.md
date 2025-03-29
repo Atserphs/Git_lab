@@ -348,6 +348,10 @@ internal class Program
    I. Simple Bruteforce Method (loop up to prime number) <br>
    II. Squareroot Half Iteration Method (loop up to square root number of prime number) <br>
    III. Trial Divison Method <br>
+   Content link 👍<URL>https://www.geeksforgeeks.org/check-for-prime-number/ </URL>
+   <a href="https://www.geeksforgeeks.org/check-for-prime-number/">
+   <img src="VS_studio_lab\Lab2\optimized trail divisionmethod.png">
+   </a>
    
    Code:
    ```
@@ -410,7 +414,10 @@ internal class Program
         }
     }
    ```
-    
+
+### Output
+Output of above functions is as below,
+<img src="VS_studio_lab\Lab2\output.png"
 
    
 
