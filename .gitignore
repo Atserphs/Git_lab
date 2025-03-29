@@ -1,4 +1,10 @@
 # folders to ignore
-.vs/  			#don't include .vs folder
-.gitignore/		#don't include .gitignore file
-this/			#don't include this folder
+#don't include .vs folder
+.vs/  	
+#don't include .gitignore file		
+.gitignore/		
+#don't include this folder
+this/	
+
+#ignore .vs file of lab2
+VS_studio_lab/Lab2/.vs
