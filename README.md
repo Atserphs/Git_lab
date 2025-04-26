@@ -648,7 +648,7 @@ internal class Overriding_child_class : Overriding_parent_class
 ```
 ### Output
 The output of the above functions is as below, <br>
-<img src="VS_studio_lab\Lab2\output.png">
+<img src="VS_studio_lab\Lab3\output.png">
 
 
 
