@@ -6,6 +6,7 @@ This repository is for storing and documenting the lab report of VB.NET. It incl
 ## Table of Contents
 - [Lab1 - Git Installation, Setup, and Basic Commands](#lab1)
 - [Lab2 - Building Console Application](#lab2)
+- [Lab3 - Overloading, Inheritance and Overriding]
 
 
 ## Lab1 - Git Installation, Setup, and Basic Commands
@@ -418,8 +419,240 @@ internal class Program
    ```
 
 ### Output
-Output of above functions is as below, <br>
+The output of the above functions is as below, <br>
 <img src="VS_studio_lab\Lab2\output.png">
+
+
+
+
+## Lab3 (Overloading, Inheritance, and Overriding)
+This project encompasses the learning of <b>Overloading</b>, <b>Inheritance</b>, and <b>Overriding</b>.
+
+1. ### Overloading
+   Overloading means creating multiple methods with the same name but different parameters (different number, type, or order of arguments) within the same class. It allows methods to perform similar tasks in different ways based on the input provided. Overloading improves code readability and flexibility by letting you use the same method name for related actions.
+
+ 2. ### Inheritance
+    Inheritance is the process where one class (called the child or derived class) takes properties and behaviors (methods) from another class (called the parent or base class). It helps in code reuse, making programs easier to manage and extend. Through inheritance, child classes can also add their own features or modify existing ones from the parent.
+
+3. ### Overriding
+   Overriding happens when a child class provides its own version of a method that is already defined in its parent class. To override, the parent method must be marked virtual, and the child method must use the override keyword. This allows a child class to customize or completely change the behavior of inherited methods to suit its specific needs.
+
+This is an example of code:<br>
+code:
+
+Code for the entrypoint Program.cs: 
+```
+//Program.cs 
+
+using System;
+
+
+internal class Program
+{
+    private static void Main()
+    {
+        // Output of Spliting
+        Console.WriteLine("Output of Spliting");
+        UpdateTimeStamp UpdateTimeStamp_obj = new UpdateTimeStamp();
+        UpdateTimeStamp_obj.splitting();
+
+
+        Console.WriteLine("\nEnter value of a and b.");
+        Console.Write("a: ");
+        double a = Convert.ToDouble(Console.ReadLine());
+        int aa = (int)a;
+        
+        Console.Write("b: ");
+        double b = Convert.ToDouble(Console.ReadLine());
+        int bb = (int)b;
+
+
+        // Code for overloading 
+        Overloading overloading_obj = new Overloading();
+
+        // Calling add method
+        Console.WriteLine("\nResult from double add method: " + overloading_obj.add(a, b));
+        Console.WriteLine("Result from int add method: " + overloading_obj.add(aa, bb));
+        // Calling mutiply method
+        Console.WriteLine("Result from double multiply method: " + overloading_obj.multiply(a, b));
+        Console.WriteLine("Result from int add method: " + overloading_obj.multiply(aa, bb));
+
+
+        // Code for inheritance
+        Inheritance inheritance_obj = new Inheritance();
+        Console.WriteLine("\nResult for multiple inheritance");
+        Console.WriteLine("Addition: " + inheritance_obj.Add(a, b));
+        Console.WriteLine("Subtraction: " + inheritance_obj.Subtract(a, b));
+        Console.WriteLine("Multiplication: " + inheritance_obj.Multiply(a, b));
+        Console.WriteLine("Division: " + inheritance_obj.Divide(a, b));
+
+
+        // Code for Overriding
+        Overriding_parent_class Overriding_parent_class_obj = new Overriding_parent_class();
+        Overriding_parent_class_obj.Afunc();
+
+        Overriding_child_class Overriding_child_class_obj = new Overriding_child_class();
+        Overriding_child_class_obj.Afunc();
+
+
+
+        Console.ReadKey();
+
+    }
+}
+```
+
+Code for updating timestamp in filenames:
+```
+//UpdateTimeStamp.cs
+using System;
+
+internal class UpdateTimeStamp
+{
+    public String getDateTime() {
+        // Get current timestamp in NPT (Nepal Time)
+        TimeZoneInfo nptZone = TimeZoneInfo.FindSystemTimeZoneById("Nepal Standard Time");
+        DateTime currentNPTTime = TimeZoneInfo.ConvertTime(DateTime.Now, nptZone);
+        string currentTimestamp = currentNPTTime.ToString("DyyyyMMdd-THHmmss");
+        return currentTimestamp;
+    }
+
+    public void splitting()
+    {
+        // Array of filenames
+        string[] Filenames = {
+        "c71d1cd4-252e-48a5-94bf-c71ca7f68e4a_CustomerName.C1.D20230115-T082015",
+        "f335d3e8-7ddc-42d2-9dc1-e456c80fd758_CustomerName.C2.D20201015-T120511",
+        "f3e26374-fe23-459f-8567-c586715d18ae_CustomerName.C3.D20210414-T111220"
+        };
+
+        string[] updatedFilenames = new string[Filenames.Length];
+
+        for (int i = 0; i < Filenames.Length; i++)
+        {
+            string[] parts_by_dot = Filenames[i].Split('.');
+            string timestamp_updated_filename = parts_by_dot[0] + "." + parts_by_dot[1] + "." + getDateTime();
+            updatedFilenames[i] = timestamp_updated_filename;   
+        }
+
+        // Print updated filenames
+        Console.WriteLine("Output of timestamp updated filenames");
+        foreach(string updatedFilename in updatedFilenames)
+        {
+            Console.WriteLine(updatedFilename);
+        }
+    }
+}
+```
+
+Code for overloading function:
+```
+//Overloadin.cs
+
+internal class Overloading
+{
+    public int add(int a, int b)
+    {
+        return a + b;
+    }
+
+    public double add(double a, double b)
+    {
+        return a + b;
+    }
+
+    public int multiply(int a, int b)
+    {
+        return a * b;
+    }
+
+    public double multiply(double a, double b)
+    {
+        return a * b;
+    }
+}
+```
+
+Code for inheritance function:
+```
+//Inheritance.cs
+interface IAddition
+{
+	double Add(double a, double b);
+}
+
+interface ISubtraction
+{
+	double Subtract(double a, double b);
+}
+
+interface IMultiplication
+{
+	double Multiply(double a, double b);
+}
+
+interface IDivision
+{
+	double Divide(double a, double b);
+}
+
+internal class Inheritance: IAddition, ISubtraction, IMultiplication, IDivision
+{ 
+	public double Add(double a, double b)
+	{
+		return a + b;
+	}
+
+	public double Subtract(double a, double b)
+	{
+		return a - b;
+	}
+
+	public double Multiply(double a, double b)
+	{
+		return a * b;
+	}
+
+	public double Divide(double a, double b)
+	{
+		if (b == 0)
+		{
+			throw new DivideByZeroException("Cannot divide by zero.");
+		}
+
+		return a / b;
+	}
+}
+```
+
+Code for overidding function:
+```
+//Overriding.cs
+using System;
+
+internal class Overriding_parent_class
+{
+	public void Afunc()
+	{
+		Console.WriteLine("\nThis is console write from parent_class");
+	}
+}
+
+internal class Overriding_child_class : Overriding_parent_class
+{
+    public new void Afunc()
+    {
+        Console.WriteLine("This is console write from child_class");
+    }
+}
+```
+### Output
+The output of the above functions is as below, <br>
+<img src="VS_studio_lab\Lab2\output.png">
+
+
+
+
 
    
 
