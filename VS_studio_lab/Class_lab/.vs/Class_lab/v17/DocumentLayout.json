@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|d:\\mega cloud\\git_folder\\vs_studio_lab\\class_lab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|d:\\mega cloud\\git_folder\\vs_studio_lab\\class_lab\\palindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|solutionrelative:palindrome.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|d:\\mega cloud\\git_folder\\vs_studio_lab\\class_lab\\inheri_without_interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|solutionrelative:inheri_without_interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|d:\\mega cloud\\git_folder\\vs_studio_lab\\class_lab\\class_lab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|solutionrelative:class_lab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|d:\\mega cloud\\git_folder\\vs_studio_lab\\class_lab\\check_inheri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|solutionrelative:check_inheri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|d:\\mega cloud\\git_folder\\vs_studio_lab\\class_lab\\function_overloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F7AD92C-41EF-4C9F-BBDB-08A596A9167A}|Class_lab.csproj|solutionrelative:function_overloading.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "palindrome.cs",
+              "DocumentMoniker": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\palindrome.cs",
+              "RelativeDocumentMoniker": "palindrome.cs",
+              "ToolTip": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\palindrome.cs",
+              "RelativeToolTip": "palindrome.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T02:56:10.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "inheri_without_interface.cs",
+              "DocumentMoniker": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\inheri_without_interface.cs",
+              "RelativeDocumentMoniker": "inheri_without_interface.cs",
+              "ToolTip": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\inheri_without_interface.cs",
+              "RelativeToolTip": "inheri_without_interface.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T02:44:48.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "check_inheri.cs",
+              "DocumentMoniker": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\check_inheri.cs",
+              "RelativeDocumentMoniker": "check_inheri.cs",
+              "ToolTip": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\check_inheri.cs",
+              "RelativeToolTip": "check_inheri.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwC4AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T02:17:28.826Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class_lab.csproj",
+              "DocumentMoniker": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\Class_lab.csproj",
+              "RelativeDocumentMoniker": "Class_lab.csproj",
+              "ToolTip": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\Class_lab.csproj",
+              "RelativeToolTip": "Class_lab.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-01T02:06:56.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "function_overloading.cs",
+              "DocumentMoniker": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\function_overloading.cs",
+              "RelativeDocumentMoniker": "function_overloading.cs",
+              "ToolTip": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\function_overloading.cs",
+              "RelativeToolTip": "function_overloading.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T02:07:19.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Class_lab\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T01:50:02.274Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

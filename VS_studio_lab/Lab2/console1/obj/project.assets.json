@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\console1\\console1.csproj",
+      "projectUniqueName": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Lab2\\console1\\console1.csproj",
       "projectName": "console1",
-      "projectPath": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\console1\\console1.csproj",
+      "projectPath": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Lab2\\console1\\console1.csproj",
       "packagesPath": "C:\\Users\\rabin\\.nuget\\packages\\",
-      "outputPath": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\console1\\obj\\",
+      "outputPath": "D:\\Mega Cloud\\GIT_folder\\VS_studio_lab\\Lab2\\console1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

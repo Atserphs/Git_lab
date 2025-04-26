@@ -1,0 +1,5 @@
+string related functions:
+like in php
+DateTime.UtcNow() it gives current time of desktop only
+regular expression
+class when function is defined with only name which scope it will have public, private, protected

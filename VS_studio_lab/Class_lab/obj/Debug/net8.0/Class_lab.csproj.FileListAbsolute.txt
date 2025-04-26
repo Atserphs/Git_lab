@@ -1,0 +1,15 @@
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\bin\Debug\net8.0\Class_lab.exe
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\bin\Debug\net8.0\Class_lab.deps.json
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\bin\Debug\net8.0\Class_lab.runtimeconfig.json
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\bin\Debug\net8.0\Class_lab.dll
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\bin\Debug\net8.0\Class_lab.pdb
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\Class_lab.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\Class_lab.AssemblyInfoInputs.cache
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\Class_lab.AssemblyInfo.cs
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\Class_lab.csproj.CoreCompileInputs.cache
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\Class_lab.sourcelink.json
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\Class_lab.dll
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\refint\Class_lab.dll
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\Class_lab.pdb
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\Class_lab.genruntimeconfig.cache
+D:\Mega Cloud\GIT_folder\VS_studio_lab\Class_lab\obj\Debug\net8.0\ref\Class_lab.dll
