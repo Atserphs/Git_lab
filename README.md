@@ -673,9 +673,9 @@ Code for this lab include multiple forms, it not feasible to add code here.
 
 ### Output
 The output of the lab4 is as below, <br>
-<img src="VS_studio_lab\Lab4 (Win Form)\WinFormApp2\Login_form.png">
-<img src="VS_studio_lab\Lab4 (Win Form)\WinFormApp2\Register_form.png">
-<img src="VS_studio_lab\Lab4 (Win Form)\WinFormApp2\Calculator.png">
+<img src="VS_studio_lab\Lab4 (Win Form)\Login_form.png">
+<img src="VS_studio_lab\Lab4 (Win Form)\Register_form.png">
+<img src="VS_studio_lab\Lab4 (Win Form)\Calculator.png">
 
 
 
