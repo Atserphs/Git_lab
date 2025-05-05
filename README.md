@@ -437,8 +437,9 @@ This project encompasses the learning of <b>Overloading</b>, <b>Inheritance</b>,
 3. ### Overriding
    Overriding happens when a child class provides its own version of a method that is already defined in its parent class. To override, the parent method must be marked virtual, and the child method must use the override keyword. This allows a child class to customize or completely change the behavior of inherited methods to suit its specific needs.
 
+### Code:
 This is an example of code:<br>
-code:
+
 
 Code for the entrypoint Program.cs: 
 ```
@@ -650,6 +651,31 @@ internal class Overriding_child_class : Overriding_parent_class
 The output of the above functions is as below, <br>
 <img src="VS_studio_lab\Lab3\output.png">
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Lab4 (WinForm)
+WinForms (Windows Forms) is a traditional UI framework in the .NET ecosystem, primarily used for creating desktop applications on Windows. It provides developers with a straightforward way to build graphical user interfaces (GUIs) by using pre-built controls like buttons, textboxes, labels, and data grids. WinForms simplifies the development process through a drag-and-drop interface in Visual Studio, enabling rapid creation of applications without the need for complex front-end coding.
+
+### Code:
+Code for this lab include multiple forms, it not feasible to add code here. 
+
+### Output
+The output of the lab4 is as below, <br>
+<img src="VS_studio_lab\Lab4 (Win Form)\WinFormApp2\Login_form.png">
+<img src="VS_studio_lab\Lab4 (Win Form)\WinFormApp2\Register_form.png">
+<img src="VS_studio_lab\Lab4 (Win Form)\WinFormApp2\Calculator.png">
 
 
 
